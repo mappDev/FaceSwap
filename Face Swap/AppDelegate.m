@@ -13,10 +13,15 @@
 @end
 
 @implementation AppDelegate
-
+@synthesize saveImage;
+@synthesize gallerynumber;
+@synthesize imageName;
+@synthesize imagenumber;
+@synthesize fullScreenBannerShow;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    fullScreenBannerShow = @"0";
     return YES;
 }
 
